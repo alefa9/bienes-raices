@@ -5,14 +5,107 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Bienes Raíces</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Lato:wght@300;400;700;900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/normalize.css">
     <link rel="stylesheet" href="css/styles.css">
 </head>
 
 <body>
 
-    <h1>Nosotros</h1>
-    <a href="index.html">Volver</a>
+    <header class="site-header">
+        <div class="contenedor contenido-header">
+            <div class="barra">
+                <a href="/">
+                    <img src="img/logo.svg" alt="Logotipo de Bienes Raíces">
+                </a>
+
+                <nav class="navegacion">
+                    <a href="nosotros.html">Nosotros</a>
+                    <a href="anuncios.html">Anuncios</a>
+                    <a href="blog.html">Blog</a>
+                    <a href="contacto.html">Contacto</a>
+                </nav>
+            </div>
+        </div> <!-- contenedor -->
+    </header>
+
+    <main class="contenedor">
+        <h1 class="fw-300 centrar-texto">Conoce Sobre Nosotros</h1>
+
+        <div class="contenido-nosotros">
+            <div class="imagen">
+                <img src="img/nosotros.jpg" alt="Imagen Sobre Nosotros">
+            </div>
+            <div class="texto-nosotros">
+                <blockquote>25 Años de Experiencia</blockquote>
+
+                <p>
+                    Phasellus consectetur luctus tellus sit amet bibendum. Sed scelerisque nisl vulputate convallis
+                    mattis. Fusce velit neque, malesuada ac odio non, tempus viverra metus. Duis eleifend, tortor sed
+                    faucibus rutrum, risus velit feugiat lectus, in egestas ligula nunc ac ipsum. Morbi molestie nulla
+                    id enim varius, nec lobortis quam bibendum. Aenean aliquam porta nunc sed laoreet. Curabitur
+                    venenatis erat non nunc sollicitudin, non tempus mi maximus. Nulla maximus, magna vitae hendrerit
+                    pharetra, mauris ligula iaculis arcu, vestibulum tincidunt risus est ac ante. Nam dignissim euismod
+                    turpis vitae pulvinar.</p>
+
+                <p>
+                    Vestibulum convallis, urna a finibus sagittis, turpis nisi accumsan odio, eget accumsan ligula dui
+                    at odio. Phasellus a ex risus. Sed lectus nisl, euismod nec libero varius, varius iaculis nisi. Nam
+                    dignissim dapibus magna, non auctor velit ultrices quis. Nam vel metus ullamcorper, accumsan diam
+                    ac, porttitor est.</p>
+
+            </div>
+        </div>
+    </main>
+
+    <section class="contenedor seccion">
+        <h2 class="fw-300 centrar-texto">Más sobre nosotros</h2>
+
+        <div class="iconos-nosotros">
+            <div class="icono">
+                <img src="img/icono1.svg" alt="Icono Seguridad">
+                <h3 class="encabezado">Seguridad</h3>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore
+                    et
+                    dolore
+                    magna aliqua.</p>
+            </div>
+
+            <div class="icono">
+                <img src="img/icono2.svg" alt="Icono Mejor Precio">
+                <h3 class="encabezado">El Mejor Precio</h3>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore
+                    et
+                    dolore
+                    magna aliqua.</p>
+            </div>
+
+            <div class="icono">
+                <img src="img/icono3.svg" alt="Icono A Tiempo">
+                <h3 class="encabezado">A Tiempo</h3>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore
+                    et
+                    dolore
+                    magna aliqua.</p>
+            </div>
+        </div>
+    </section>
+
+    <footer class="site-footer seccion">
+        <div class="contenedor contenedor-footer">
+            <nav class="navegacion">
+                <a href="nosotros.html">Nosotros</a>
+                <a href="anuncios.html">Anuncios</a>
+                <a href="blog.html">Blog</a>
+                <a href="contacto.html">Contacto</a>
+            </nav>
+            <p class="copyright">Todos los Derechos Reservados 2021 &copy;</p>
+        </div>
+    </footer>
+
 </body>
 
 </html>
